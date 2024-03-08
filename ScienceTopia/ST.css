@@ -1,0 +1,179 @@
+body{background-color: #ffffff;
+margin: 0px;
+padding: 0px;}
+
+.titlebar{display: flex;
+margin-left: 33%;}
+
+/*much ezier making a logo in Illustrator/Photoshop*/
+.namebox{height:100px;
+width:100px;
+background-color: aliceblue;
+border-style: solid;
+border-color: #0101a5;
+display: block;
+justify-content: center;
+margin-left: 30px;
+margin-right: auto;
+margin-bottom: 100px;
+font-family: 'Josefin Slab', serif;
+font-style: bold;
+margin-top: 20px;}
+
+.namebox h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;}
+
+.sttitle{
+font-size: 12px;
+text-align: left;
+margin-top:1px;
+margin-left: 1px;}
+
+
+
+#titel {justify-content: space-evenly;
+margin-top:30px;
+font-family: 'Bebas Neue';
+font-size: 90px;}
+
+
+.ndtitle {text-align: center;
+font-size: 15px;
+font-weight: bold;}
+
+h2{
+margin-left: 20px;
+margin-top: -40px;
+font-family: 'Merriweather', serif;
+font-style: italic;
+font-weight: 120;
+font-size: 50px;
+text-align: left;}
+
+#button {margin-left: 20px;
+width: 300px;
+height: 45px;
+background-color:#0101a5;
+color: white;
+border-style: solid;
+border-color: #0101a5;
+font-family: 'Bebas Neue';
+font-size: 22px;
+border-radius: 5px}
+
+#button:hover {opacity:75%;
+cursor: pointer;}
+
+.bildbox {width: 100%;
+display: inline-flex;
+margin-top: 60px;
+justify-content: space-evenly;}
+.bildbox img{width:200px}
+
+.List{font-family: 'Bebas Neue';
+text-align: center;
+margin-top: 100px;}
+.List h3{font-size: 60px;}
+.List ol{list-style-position: inside;
+font-size:20px;}
+.List li{padding-top: 10px;}
+
+
+.info-box{width: 90%;
+display: block;
+font-family: 'Nunito sans', sans-serif;
+font-weight:200;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.info-box h3 {margin-left: 20px;
+width: 500px;}
+
+.text {margin-left: 20px;
+    width: 500px;
+font-weight: 320;
+}
+
+#illustration{float:right;
+margin-right: 50px;
+margin-top:-100px;
+}
+
+.Computer-science{width: 100%;
+background-color: #f9f9f9;
+height:300px;
+padding-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+.Chemistry{width: 100%;
+    background-color: #f9f9f9;
+    height:300px;
+padding-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px}
+
+    .Physics{width: 100%;
+        background-color: #f9f9f9;
+        height:300px;
+    padding-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px}
+
+        .Biology{width: 100%;
+            background-color: #f9f9f9;
+            height:300px;
+        padding-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px}
+
+
+    html{
+        scroll-behavior: smooth}
+
+
+#startup {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 45%;
+    height:400px;
+    margin-left: 20px;
+    background: linear-gradient(#0101a5, #5959ed, #0f7cf0);
+    opacity: 90%;
+    border-radius: 1rem;
+    color: white;
+    margin-top:50px;
+}
+
+#startup ol{list-style-position: inside;}
+
+#signup{width:45%;
+    height:400px;
+    font-family: 'Nunito Sans', sans-serif;
+    background: linear-gradient(#0101a5, #5959ed, #0f7cf0);
+    opacity: 80%;
+    border-radius: 1rem;
+    color: white;
+    margin-top:50px
+}
+
+
+.account{color: white}
+
+
+
+
+.container{display: flex;
+justify-content: space-evenly;
+text-align: center;
+height: 500px;
+background-image: url(https://assets.amazon.science/dims4/default/29b5b7d/2147483647/strip/true/flipflop/horizontal/crop/756x425+342+0/resize/1200x675!/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2F72%2F93%2F78b29a2247f19d45da606ff38ec4%2Famazon-science-blog.jpg);
+background-repeat: no-repeat;
+background-size: 110%;
+border-radius: 5px;
+}
+
