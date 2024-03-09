@@ -1,0 +1,266 @@
+body {width: 100%;
+    height: 400vh;
+    background:linear-gradient(
+       #6cc2ff, #fc46de, #ff7707
+    );
+    padding: 0px;
+    margin: 0px;
+  } 
+
+h1{font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+color: #000000;
+background-color: #ffffff;
+padding:20px;
+margin-top:0px}
+
+.subtitle1{font-family: 'Ubuntu', sans-serif;
+text-align: left;
+margin-left: 65px;
+margin-right: 65px;
+margin-top:60px;
+color: #ffffff;
+text-shadow: 1px 1px #c5c4c4;
+font-weight: lighter;}
+.sub-subtitle{font-family: 'Ubuntu', sans-serif;
+margin-top:5px;
+margin-left: 65px;
+color: #ffffff;}
+#FCC{text-decoration: none;}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+}
+.content{padding:16px}
+.sticky + .content{padding-top:65px}
+
+
+
+
+
+.sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color:#000000; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  .fa-brands{margin-right:5px}
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+ .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#000000;opacity: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7rem;
+    margin-top: 10px;
+    margin-top:65px;
+    margin-left: 10px;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s; 
+    padding: 20px;
+  }
+  /*not sure if needed, but wont hurt*/
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }  
+  
+  .info-container {display: flex;
+    justify-content: center;
+font-family: 'Ubuntu', sans-serif;
+text-align: center;
+margin-top:100px}
+
+.PS-infobox{background-color: hsla(0, 0%, 100%, 0.201); width: 48.78vh;
+height: 66vh;
+border-radius: 1rem;
+margin: 30px;
+border-style: solid;
+border-width: thin;
+border-color: #ffffff;}
+
+
+
+.PS-infobox img{width: 48.7vh;}
+.PS-infobox h3{float: right;
+margin-right:20%;
+font-size: 30px;
+justify-content: center;
+margin-top:40px}
+
+.ID-infobox {background-color: hsla(0, 0%, 100%, 0.201); width: 48.78vh;
+    height: 66vh;
+    border-radius: 1rem;
+    margin: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #ffffff;}
+
+        .ID-infobox h3{float: right;
+            margin-right:20%;
+            font-size: 30px;
+            justify-content: center;
+            margin-top:40px}
+            
+        
+
+.IL-infobox{background-color: hsla(0, 0%, 100%, 0.201); width: 48.78vh;
+        height: 66vh;
+        border-radius: 1rem;
+    margin: 30px;
+border-style: solid;
+border-width: thin;
+border-color: #ffffff;
+}
+  
+        .IL-infobox h3{float:right;
+        margin-right: 20%;
+    font-size: 30px;
+justify-content: center;
+margin-top:40px}
+.info-container P, ul{text-align: left;}
+
+#loggor{transition: 0.3s; width: 100px; float:left; padding:10px; cursor:pointer}
+#loggor:hover{transform: rotate(10deg);}
+
+    .banderoll{background: linear-gradient(to right,#325efd, #fd9432);
+    height: 120px;
+border-top-right-radius: 1rem;
+border-top-left-radius: 1rem;}
+.banderoll2{background: linear-gradient(to right,#e30242, #fd9432);
+    height: 120px;
+border-top-right-radius: 1rem;
+border-top-left-radius: 1rem;}
+.banderoll3{background: linear-gradient(to left,#325efd, #fd9432);
+    height: 120px;
+border-top-right-radius: 1rem;
+border-top-left-radius: 1rem;}
+
+
+
+
+/*Second set of Info-boxes*/
+
+#loggor2{transition: 0.3s; width: 100px; float:right; padding:10px; cursor:pointer}
+#loggor2:hover{transform: rotate(-10deg);}
+#loggor2css{transition: 0.3s; width: 70px; float:right; padding:10px; cursor:pointer; margin-right:5px}
+#loggor2css:hover{transform: rotate(-10deg);}
+#loggor2js{transition: 0.3s; width: 75px; float:right; padding:10px; cursor:pointer; margin-right:5px}
+#loggor2js:hover{transform: rotate(-10deg);}
+
+
+
+.FCP-infobox{background-color: hsla(0, 0%, 100%, 0.201); width: 48.78vh;
+    height: 66vh;
+    border-radius: 1rem;
+margin: 30px;
+border-style: solid;
+border-width: thin;
+border-color: #ffffff;
+}
+.FCP-infobox h3{float:left;
+margin-left: 20%;
+font-size: 30px;
+justify-content: center;
+margin-top:40px}
+
+    .banderoll4{background: linear-gradient(to right,#f71d49,#ffe927, #f4e157);
+        height: 120px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;}
+
+    .HTML-infobox{background-color: hsla(0, 0%, 100%, 0.201); 
+        width: 48.78vh;
+        height: 66vh;
+        border-radius: 1rem;
+    margin: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #ffffff;
+    }
+
+    .HTML-infobox h3{float:left;
+    margin-left: 20%;
+    font-size: 30px;
+    justify-content: center;
+    margin-top:40px}
+    
+        .banderoll5{background: linear-gradient(to right,#f9b63a,#ff8d50, #e65d13);
+            height: 120px;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;}
+
+        .banderoll6{background: linear-gradient(to right,#f9b63a,#8c7aff, #2312e4);
+            height: 120px;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;}
+
+        /*Not info-boxes*/
+        .abt-box{
+            display: flex;
+    justify-content: center;
+font-family: 'Ubuntu', sans-serif;
+margin-top:50px}
+             .abt-text{background-color: hsla(0, 0%, 100%, 0.201); 
+                width: 162vh;
+                height: 66vh;
+                border-radius: 1rem;
+            margin: 30px;
+            border-style: solid;
+            border-width: thin;
+            border-color: #ffffff;
+        text-align: left;}
+        .abt-text p, h3{margin-left:10px;
+        margin-right:10px}
+
+       #topBtn{background-color:transparent;
+        border-style: solid;
+        border-width: thin;
+    border-radius: 5rem;
+margin:auto;
+font-family: 'Ubuntu', sans-serif;
+font-size: 15px;
+}
+
+
+   
