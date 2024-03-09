@@ -1,0 +1,37 @@
+body{margin: 0px;
+padding: 0px;}
+.legacy{display: flex;
+justify-content: space-between;}
+
+.text{font-family: 'Comfortaa', sans-serif;
+text-align: left;
+margin: 20px;
+font-size: 15px;
+padding-top: 2px;
+width:600px}
+
+h1{font-family: 'Comfortaa', sans-serif;
+margin-left: 40%;
+display: inline-block;}
+
+hr{height:10px;
+background-color: black;
+border-style: none;}
+
+.photo{float: right;
+margin-top: 50px;
+margin-right: 20px;
+font-family: 'Comfortaa', sans-serif;
+font-size: 10px;
+text-align: center;
+color: #6d6d6d;}
+.photo img{width: 600px;}
+.photo a{text-decoration: none;}
+
+.photo:hover{opacity: 80%;}
+
+#home{font-family: 'Comfortaa', sans-serif;
+background-color: transparent;
+text-align: left;
+margin-left: 20px;
+display: inline-block;}
