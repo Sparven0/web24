@@ -79,4 +79,4 @@ const spin = () => {
 let balance = deposit(); 
 const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
-
+//not finished
